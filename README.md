@@ -8,6 +8,7 @@ Although existing deep learning compressed-sensing-based Magnetic Resonance Imag
 
 
 ![image](https://user-images.githubusercontent.com/48355877/185527812-9de873ad-f705-4336-8ba4-60068356276d.png)
+Fig. 1. The overall architecture of the proposed unifying multi-sampling-ratio CS-MRI framework with two-grid-cycle correction and geometric prior distillation (CGPD-CSNet).
 
 These codes are built on PyTorch and tested on Ubuntu 18.04/20.04 (Python3.x, PyTorch>=0.4) with Intel Xeon CPU E5-2630 and Nvidia Tesla V100 GPU.
 
