@@ -22,20 +22,20 @@ scikit-image <= 0.16.2 (recommend 0.16.1, 0.16.2)
 1.1、Pre-trained models:  
 All pre-trained models for our paper are in './model_MRI'.  
 1.2、Prepare test data:  
-The original test set BrainImages_test is in './data/'.  
+The original test set BrainImages_test/heart_test is in './data/'.  
 1.3、Prepare code:  
-Open './Core_MRI-DGDN.py' and change the default run_mode to test in parser (parser.add_argument('--run_mode', type=str, default='test', help='train、test')).  
-1.4、Run the test script (Core_MRI-DGDN.py).  
+Open './Core_brainMRI-CGPD-CSNet-Cartesian-together.py' and change the default run_mode to test in parser (parser.add_argument('--run_mode', type=str, default='test', help='train、test')).  
+1.4、Run the test script (Core_brainMRI-CGPD-CSNet-Cartesian-together.py).  
 1.5、Check the results in './result/'.
 
 ### 2.Train CS-MRI  
 2.1、Prepare training data:  
 We use the same datasets and training data pairs as ISTA-Net+ and CDDN for CS-MRI. Due to upload file size limitation, we are unable to upload training data directly. Here we provide a [link](https://pan.baidu.com/s/1ap07Jc3u0biCu8rxjB5wlA?pwd=hph4) to download the datasets for you.  
 2.2、Prepare measurement matrix:  
-We fix the pseudo radial sampling masks the same as ISTA-Net+. The measurement matrixs are in './sampling_matrix/'.  
+The measurement matrixs (pseudo-radial/2D-random/Cartesian) are in './sampling_matrix/'.  
 2.3、Prepare code:  
-Open './Core_MRI-DGDN.py' and change the default run_mode to train in parser (parser.add_argument('--run_mode', type=str, default='train', help='train、test')).  
-2.4、Run the train script (Core_MRI-DGDN.py).  
+Open './Core_brainMRI-CGPD-CSNet-Cartesian-together.py' and change the default run_mode to train in parser (parser.add_argument('--run_mode', type=str, default='train', help='train、test')).  
+2.4、Run the train script (Core_brainMRI-CGPD-CSNet-Cartesian-together.py).  
 2.5、Check the results in './log_MRI/'.
 
 ### Citation  
