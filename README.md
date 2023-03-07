@@ -30,7 +30,7 @@ Open './Core_MRI-DGDN.py' and change the default run_mode to test in parser (par
 
 ### 2.Train CS-MRI  
 2.1、Prepare training data:  
-We use the same datasets and training data pairs as ISTA-Net+ and CDDN for CS-MRI. Due to upload file size limitation, we are unable to upload training data directly. Here we provide links to download the training data (https://github.com/jianzhangcs/ISTA-Net-PyTorch, ) for you.  
+We use the same datasets and training data pairs as ISTA-Net+ and CDDN for CS-MRI. Due to upload file size limitation, we are unable to upload training data directly. Here we provide links to download the training data (链接：https://pan.baidu.com/s/1ap07Jc3u0biCu8rxjB5wlA?pwd=hph4 提取码：hph4) for you.  
 2.2、Prepare measurement matrix:  
 We fix the pseudo radial sampling masks the same as ISTA-Net+. The measurement matrixs are in './sampling_matrix/'.  
 2.3、Prepare code:  
