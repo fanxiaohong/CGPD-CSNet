@@ -14,6 +14,7 @@ These codes are built on PyTorch and tested on Ubuntu 18.04/20.04 (Python3.x, Py
 ```
 pytorch <= 1.7.1 (recommend 1.6.0, 1.7.1)
 scikit-image <= 0.16.2 (recommend 0.16.1, 0.16.2)
+```
 
 ### Citation  
 If you find the code helpful in your resarch or work, please cite the following papers. 
