@@ -22,7 +22,7 @@ scikit-image <= 0.16.2 (recommend 0.16.1, 0.16.2)
 1.1、Pre-trained models:  
 All pre-trained models for our paper are in './model_MRI'.  
 1.2、Prepare test data:  
-The original test set BrainImages_test/heart_test is in './data/'.  
+The original test sets BrainImages_test and heart_test are in './data/'.  
 1.3、Prepare code:  
 Open './Core_brainMRI-CGPD-CSNet-Cartesian-together.py' and change the default run_mode to test in parser (parser.add_argument('--run_mode', type=str, default='test', help='train、test')).  
 1.4、Run the test script (Core_brainMRI-CGPD-CSNet-Cartesian-together.py).  
