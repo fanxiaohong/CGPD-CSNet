@@ -24,7 +24,7 @@ If you find the code helpful in your resarch or work, please cite the following 
 @Article{Fan2021,
   author    = {Xiaohong Fan and Yin Yang and Ke Chen and Jianping Zhang and Ke Dong},
   journal   = {arXiv},
-  title     = {A Unifying Multi-sampling-ratio CS-MRI Framework With Two-grid-cycle Correction and Geometric Prior Distillation},
+  title     = {An Interpretable MRI Reconstruction Network with Two-grid-cycle Correction and Geometric Prior Distillation},
   year      = {2022},
 }
 ```
