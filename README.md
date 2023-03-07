@@ -1,4 +1,4 @@
-# A-Unifying-Multi-sampling-ratio-CS-MRI-Framework-With-Two-grid-cycle-Correction-and-Geometric-Prior
+# An Interpretable MRI Reconstruction Network with Two-grid-cycle Correction and Geometric Prior Distillation
 
 This repository contains the CS-MRI reconstruction pytorch codes for the following paper：  
 Xiaohong Fan, Yin Yang, Ke Chen, Jianping Zhang*, Ke Dong, “A Unifying Multi-sampling-ratio CS-MRI Framework With Two-grid-cycle Correction and Geometric Prior Distillation”. arXiv, 2022. [[pdf]](https://arxiv.org/abs/2205.07062) 
