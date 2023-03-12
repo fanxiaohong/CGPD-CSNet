@@ -1,7 +1,9 @@
 # An Interpretable MRI Reconstruction Network with Two-grid-cycle Correction and Geometric Prior Distillation
 
-This repository contains the CS-MRI reconstruction pytorch codes for the following paper：  
-Xiaohong Fan, Yin Yang, Ke Chen, Jianping Zhang*, Ke Dong, “An Interpretable MRI Reconstruction Network with Two-grid-cycle Correction and Geometric Prior Distillation”. arXiv, 2022. [[pdf]](https://arxiv.org/abs/2205.07062)  (Accepted to Biomedical Signal Processing and Control, March, 2023.)
+This repository contains the CS-MRI reconstruction pytorch codes for the following paper： 
+X. Fan, Y. Yang, K. Chen, J. Zhang, and K. Dong, “An interpretable MRI reconstruction network with two-grid-cycle correction and geometric prior distillation,” Biomedical Signal Processing and Control, vol. 84, p. 104821, Jul. 2023, doi: 10.1016/j.bspc.2023.104821.
+
+Xiaohong Fan, Yin Yang, Ke Chen, Jianping Zhang*, Ke Dong, “An Interpretable MRI Reconstruction Network with Two-grid-cycle Correction and Geometric Prior Distillation”. arXiv, 2022. [[pdf]](https://arxiv.org/abs/2205.07062) 
 
 ### Abstract
 Although existing deep learning compressed-sensing-based Magnetic Resonance Imaging (CS-MRI) methods have achieved considerably impressive performance, explainability and generalizability continue to be challenging for such methods since the transition from mathematical analysis to network design not always natural enough, often most of them are not flexible enough to handle multi-sampling-ratio reconstruction assignments. {In this work, to tackle explainability and generalizability, we propose a unifying deep unfolding multi-sampling-ratio interpretable CS-MRI framework.} The combined approach offers more generalizability than previous works whereas deep learning gains explainability through a geometric prior module. Inspired by the multigrid algorithm, we first embed the CS-MRI-based optimization algorithm into correction-distillation scheme that consists of three ingredients: pre-relaxation module, correction module and geometric prior distillation module. Furthermore, we employ a condition module to learn adaptively step-length and noise level, which enables the proposed framework to jointly train multi-ratio tasks through a single model. { The proposed model not only compensates for the lost contextual information of reconstructed image which is refined from low frequency error in geometric characteristic k-space}, but also integrates the theoretical guarantee of model-based methods and the superior reconstruction performances of deep learning-based methods. Therefore, it can give us a novel perspective to design biomedical imaging networks. { Numerical experiments show that our framework outperforms state-of-the-art methods in terms of qualitative and quantitative evaluations.} {Our method achieves 3.18 dB improvement at low CS ratio 10\% and average 1.42 dB improvement over other comparison methods on brain dataset using Cartesian sampling mask.
@@ -41,11 +43,15 @@ Open './Core_brainMRI-CGPD-CSNet-Cartesian-together.py' and change the default r
 ### Citation  
 If you find the code helpful in your resarch or work, please cite the following papers. 
 ```
-@Article{Fan2021,
-  author    = {Xiaohong Fan and Yin Yang and Ke Chen and Jianping Zhang and Ke Dong},
-  journal   = {arXiv},
-  title     = {An Interpretable MRI Reconstruction Network with Two-grid-cycle Correction and Geometric Prior Distillation},
-  year      = {2022},
+@Article{Fan2023,
+  author  = {Xiaohong Fan and Yin Yang and Ke Chen and Jianping Zhang and Ke Dong},
+  journal = {Biomedical Signal Processing and Control},
+  title   = {An interpretable {MRI} reconstruction network with two-grid-cycle correction and geometric prior distillation},
+  year    = {2023},
+  month   = {Jul.},
+  pages   = {104821},
+  volume  = {84},
+  doi     = {10.1016/j.bspc.2023.104821},
 }
 ```
 
